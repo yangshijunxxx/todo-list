@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header{
+    height: 100px;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    /* line-height 控制垂直居中 */
+    line-height: 100px;
+}
+.mainInput{
+    width: fit-content;
+    margin: auto;
+}
+#myInput{
+    width: 350px;
+    height: 60px;
+    font-size: 20px;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: none;
+    float: left;
+    transition: 0.3s;
+}
+.addBtn{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.addBtn img{
+    width: auto;
+    height: 40px;
+}
+.addBtn:hover{
+    background-color: red;
+}
+li{
+    background-color: plum;
+}
